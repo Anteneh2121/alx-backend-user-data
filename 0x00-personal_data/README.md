@@ -18,7 +18,7 @@
 
 **0. Regex-ing**
 
-File: [0-main.py](0-main.py/) - [filtered_logger.py](filtered_logger.py/)
+File:  [filtered_logger.py](filtered_logger.py/)
 
 Write a function called filter_datum that returns the log message obfuscated:
 
@@ -55,7 +55,7 @@ bob@dylan:~$
 
 **1. Log formatter**
 
-File: [1-main.py](1-main.py/) - [filtered_logger.py](filtered_logger.py/)
+File:  [filtered_logger.py](filtered_logger.py/)
 
 Copy the following code into filtered_logger.py.
 
@@ -110,7 +110,7 @@ bob@dylan:~$
 
 **2. Create logger**
 
-File: [2-main.py](2-main.py/) - [filtered_logger.py](filtered_logger.py/)
+File:  [filtered_logger.py](filtered_logger.py/)
 
 Use user_data.csv for this task
 
@@ -149,7 +149,7 @@ bob@dylan:~$
 
 **3. Connect to secure database**
 
-File: [3-main.py](3-main.py/) - [filtered_logger.py](filtered_logger.py/)
+File:  [filtered_logger.py](filtered_logger.py/)
 
 Database credentials should NEVER be stored in code or checked into version control. One secure option is to store them as environment variable on the application server.
 
@@ -273,7 +273,7 @@ bob@dylan:~$
 
 **5. Encrypting passwords**
 
-File: [3-main.py](3-main.py/) - [encrypt_password.py](encrypt_password.py/)
+File:  [encrypt_password.py](encrypt_password.py/)
 
 User passwords should NEVER be stored in plain text in a database.
 
@@ -284,7 +284,7 @@ Use the bcrypt package to perform the hashing (with hashpw).
 
 **6. Check valid password**
 
-File: [3-main.py](3-main.py/) - [encrypt_password.py](encrypt_password.py/)
+File:  [encrypt_password.py](encrypt_password.py/)
 
 Implement an is_valid function that expects 2 arguments and returns a boolean.
 
